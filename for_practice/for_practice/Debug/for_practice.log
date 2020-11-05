@@ -1,0 +1,3 @@
+﻿  for_practice.c
+C:\Users\Hyebin\source\repos\for_practice\for_practice\for_practice.c(9,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  for_practice.vcxproj -> C:\Users\Hyebin\source\repos\for_practice\Debug\for_practice.exe

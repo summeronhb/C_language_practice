@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+	char sel;
+	printf("M 오전, A 오후, E 저녁 \n");
+	printf("입력: ");
+	scanf("%c", &sel);
+
+	switch (sel) // 분기 수가 많아지면 switch 를 사용한다.
+	{
+	case 'M': case 'm':
+		printf("Morning \n");
+		break;
+		
+	case 'A': case 'a':
+		printf("Afternoon \n");
+		break;
+
+	case 'E': case 'e':
+		printf("Evening \n");
+		break;
+
+	}
+	
+	return 0;
+
+
+}

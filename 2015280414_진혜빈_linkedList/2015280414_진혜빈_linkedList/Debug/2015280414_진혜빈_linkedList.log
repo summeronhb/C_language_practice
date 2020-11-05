@@ -1,0 +1,3 @@
+﻿  HeadAddLinkedRead.c
+C:\Users\Hyebin\Downloads\Data_Structure_Src\Ch04\Prob04-1\HeadAddLinkedRead.c(23,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  2015280414_진혜빈_linkedList.vcxproj -> C:\Users\Hyebin\source\repos\2015280414_진혜빈_linkedList\Debug\2015280414_진혜빈_linkedList.exe

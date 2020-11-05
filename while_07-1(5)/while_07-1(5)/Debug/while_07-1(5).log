@@ -1,0 +1,4 @@
+﻿  while_ex5.c
+C:\Users\Hyebin\source\repos\while_07-1(5)\while_07-1(5)\while_ex5.c(9,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Hyebin\source\repos\while_07-1(5)\while_07-1(5)\while_ex5.c(14,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  while_07-1(5).vcxproj -> C:\Users\Hyebin\source\repos\while_07-1(5)\Debug\while_07-1(5).exe

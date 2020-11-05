@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+double CelToFah(double Cel);
+double FahToCel(double Fah);
+
+double main()
+{
+	int opt;
+	printf("1. ¼·¾¾¸¦ È­¾¾·Î º¯°æ 2.È­¾¾¸¦ ¼·¾¾·Î º¯°æ \n");
+	printf("¹øÈ£ ÀÔ·Â:  ");
+	scanf("%d", &opt);
+
+	if (opt == 1)
+	{
+		double Cel;
+		printf("¼·¾¾ ¿Âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ");
+		scanf("%lf", &Cel);
+		printf("¼·¾¾ %lf´Â È­¾¾ %lf ÀÔ´Ï´Ù.\n", Cel, CelToFah(Cel));
+	}
+	else if(opt == 2)
+	{
+		double Fah;
+		printf("È­¾¾ ¿Âµµ¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ");
+		scanf("%lf", &Fah);
+		printf("È­¾¾ %lf´Â ¼·¾¾ %lf ÀÔ´Ï´Ù.\n", Fah, FahToCel(Fah));
+
+	}
+	else
+		printf("¼±ÅÃ ¿À·ùÀÔ´Ï´Ù.\n");
+}
+
+double CelToFah(double Cel)
+{
+	return 1.8 * Cel + 32;
+}
+
+double FahToCel(double Fah)
+{
+	return (Fah - 32) / 1.8;
+}

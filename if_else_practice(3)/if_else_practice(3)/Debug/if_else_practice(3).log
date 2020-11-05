@@ -1,0 +1,4 @@
+﻿  if_else_practice(4).c
+C:\Users\Hyebin\source\repos\if_else_practice(3)\if_else_practice(3)\if_else_practice(4).c(11,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Hyebin\source\repos\if_else_practice(3)\if_else_practice(3)\if_else_practice(4).c(14,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  if_else_practice(3).vcxproj -> C:\Users\Hyebin\source\repos\if_else_practice(3)\Debug\if_else_practice(4).exe
